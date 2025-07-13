@@ -10,7 +10,7 @@ services:
     environment:
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: admin
-      POSTGRES_DB: postgres
+      POSTGRES_DB: yellowbaba
     volumes:
       - db_data:/var/lib/postgresql/data
     networks:
